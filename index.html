@@ -9,73 +9,79 @@
     <title>Galactic Age Calculator</title>
   </head>
   <body>
-    <div class="row">
-      <div id="ruleBox">
-        <h1>Welcome to the Epicodus Galactic Age Calculator!</h1>
-        <h3>Go ahead and enter your age to calculate various ages</h3>
-        <h3>Below are the expected outputs:</h3>
-        <ul>
-          <li>In seconds</li>
-          <li>In Mercury Years</li>
-          <li>In Venus Years</li>
-          <li>In Mars Years</li>
-          <li>In Jupiter Years</li>
-          <li>How many years you have left on Earth (dun dun dunnnnnnnnnnnnnn)</li>
-        </ul>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="ruleBox">
+          <h1>Welcome to the Epicodus Galactic Age Calculator!</h1>
+          <h3>Go ahead and enter your age to calculate various ages</h3>
+          <h3>Below are the expected outputs:</h3>
+          <ul>
+            <li>In seconds</li>
+            <li>In Mercury Years</li>
+            <li>In Venus Years</li>
+            <li>In Mars Years</li>
+            <li>In Jupiter Years</li>
+            <li>How many years you have left on Earth (dun dun dunnnnnnnnnnnnnn)</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div id="ageBox">
-        <form class="form-group" action="index.html" method="post">
-          <label for="age">Submit your age please!</label>
-          <input type="number" name="age" id="userInput">
-          <div class="buttonmargin">
-            <button type="button" name="button" class="btn btn-success" id="btnSeconds">Seconds</button>
-            <button type="button" name="button" class="btn btn-success" id="btnMercury">Mercury</button>
-            <button type="button" name="button" class="btn btn-success" id="btnVenus">Venus</button>
-            <button type="button" name="button" class="btn btn-success" id="btnMars">Mars</button>
-            <button type="button" name="button" class="btn btn-success" id="btnJupiter">Jupiter</button>
-            <button type="button" name="button" class="btn btn-danger" id="btnDeath">Death Day</button>
+      <br>
+      <div class="row">
+        <div id="ageBox">
+          <form class="form-group" action="index.html" method="post">
+            <label for="age">Submit your age please!</label>
+            <input type="number" name="age" id="userInput">
+            <br>
+            <br>
+            <div class="buttonmargin">
+              <button type="button" name="button" class="btn btn-success" id="btnSeconds">Seconds</button>
+              <button type="button" name="button" class="btn btn-success" id="btnMercury">Mercury</button>
+              <button type="button" name="button" class="btn btn-success" id="btnVenus">Venus</button>
+              <button type="button" name="button" class="btn btn-success" id="btnMars">Mars</button>
+              <button type="button" name="button" class="btn btn-success" id="btnJupiter">Jupiter</button>
+              <button type="button" name="button" class="btn btn-danger" id="btnDeath">Death Day</button>
 
+            </div>
+          </form>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-2">
+          <h2>Age in Seconds</h2>
+          <div id="ageSeconds">
+            <p></p>
           </div>
-        </form>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <h2>Age in Seconds</h2>
-        <div id="ageSeconds">
-          <p></p>
         </div>
-      </div>
-      <div class="col-md-2">
-        <h2>Age in Mercury Years</h2>
-        <div id="mercuryYears">
-          <p></p>
+        <div class="col-md-2">
+          <h2>Age in Mercury Years</h2>
+          <div id="mercuryYears">
+            <p></p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-2">
-        <h2>Age in Venus Years</h2>
-        <div id="venusYears">
-          <p></p>
+        <div class="col-md-2">
+          <h2>Age in Venus Years</h2>
+          <div id="venusYears">
+            <p></p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-2">
-        <h2>Age in Mars Years</h2>
-        <div id="marsYears">
-          <p></p>
+        <div class="col-md-2">
+          <h2>Age in Mars Years</h2>
+          <div id="marsYears">
+            <p></p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-2">
-        <h2>Age in Jupiter Years</h2>
-        <div id="jupiterYears">
-          <p></p>
+        <div class="col-md-2">
+          <h2>Age in Jupiter Years</h2>
+          <div id="jupiterYears">
+            <p></p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-2">
-        <h2>How many years you have left on Earth</h2>
-        <div id="deathDay">
-          <p></p>
+        <div class="col-md-2">
+          <h2>How many years you have left on Earth</h2>
+          <div id="deathDay">
+            <p></p>
+          </div>
         </div>
       </div>
     </div>
